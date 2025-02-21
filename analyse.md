@@ -28,7 +28,7 @@ Na analise de volume de requests por IP sem os paises US e IN, temos um volume m
 
 Tais alterações se aplicam tambem em quantidade de paths requisitados por IP e diferentes paths requisitados por hosts em buscas com e sem paises US e IN.
 
-Avaliando as requisições, foram identificadas requisições com caracteristicas de ataque XSS, SQLI e directory transversal.
+Avaliando as requisições, foram identificadas caracteristicas de ataque XSS, SQLI e directory transversal.
 
 exemplos de path:
 - /../../../windows/win.ini
@@ -41,3 +41,4 @@ Com as analises:
 - Verificado que não existe padrao de ASN ofensiva gerando requisições maliciosas.
 - Pela falta de conhecimento do ambiente e dos usuarios, não é possivel afirmar que existe algum grupo de origem malicioso, visto que existem ASN válidas gerando acesso.
 - As requisiçoes sugerem uma possivel injeção de cabeçalho host em todas as requisições baseado no ZoneName, porem a falta de conhecimento do ambiente também impossibilita afirmar isso.
+- A falta de informaçao de resposta impossibilita confirmaçao dos destinos requisitados, possibilitando até sugerir um flow de DDoS.

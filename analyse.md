@@ -1,7 +1,9 @@
 O dataset contém 30.000 registros e 15 colunas, relacionadas a requisições HTTP de clientes entre os dias 05/11/2024 e 14/11/2024. As colunas para análise de segurança incluem:
 
 ClientIP - IP de origem da requisição
+
 ClientASN -  Autonomous System Number do IP de origem
+
 ClientCountry - Pais de origem
 
 ClientDeviceType - Tipo de dispositivo da origem

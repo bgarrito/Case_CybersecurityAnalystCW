@@ -36,6 +36,7 @@ exemplos de path:
 - /api/v1/users?search=; DROP TABLE users;--
 
 
+Com as analises:
 - Foram identificadas requisições maliciosas partindo de IPs com baixo volume de eventos com as mesmas caracteristicas.
 - Verificado que não existe padrao de ASN ofensiva gerando requisições maliciosas.
 - Pela falta de conhecimento do ambiente e dos usuarios, não é possivel afirmar que existe algum grupo de origem malicioso, visto que existem ASN válidas gerando acesso.
